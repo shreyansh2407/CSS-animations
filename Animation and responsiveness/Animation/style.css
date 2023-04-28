@@ -1,0 +1,45 @@
+.container{
+    width: 100%;
+    height: 217px;
+    border: 2px solid black;
+    background-color: white;
+}
+.box{
+    width: 214px;
+    height: 214px;
+    border: 2px solid red;
+    background-color: aqua;
+
+    animation-name: shreyansh;
+    animation-duration: 10s;
+    animation-iteration-count: 4;
+    animation-delay: 5s;
+    animation-timing-function:ease-in-out;
+    animation-direction:reverse;
+    animation-fill-mode: forwards;
+
+}
+
+/* @keyframes shreyansh {
+    form{
+        width: 214px;
+    }
+    to{
+        width:100%;
+    }
+} */
+
+@keyframes shreyansh{
+    0%{
+        width: 0%;
+        background-color: orange;
+    }
+    45%{
+        width: 45%;
+        background-color: white;
+    }
+    100%{
+        width: 98%;
+        background-color: green;
+    }
+}
